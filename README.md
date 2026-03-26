@@ -15,7 +15,3 @@ A simple and secure authentication system built with **Node.js**, **Express**, a
 - **Authentication:** JWT
 - **Password Security:** bcrypt
 
-## Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/ankitkumarsingh1108-tech/auth-system.git
