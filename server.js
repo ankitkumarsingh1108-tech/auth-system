@@ -1,7 +1,7 @@
 require("dotenv").config();
 const connectDB = require("./src/config/db");
 
-// ✅ IMPORT APP (THIS CONNECTS ROUTES)
+// IMPORT APP (THIS CONNECTS ROUTES)
 const app = require("./src/app");
 
 connectDB();
