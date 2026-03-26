@@ -3,10 +3,10 @@ const app = express();
 
 app.use(express.json());
 
-// ✅ IMPORT ROUTES
+// IMPORT ROUTES
 const authRoutes = require("./routes/authRoutes");
 
-// ✅ CONNECT ROUTES (MOST IMPORTANT LINE)
+// CONNECT ROUTES (MOST IMPORTANT LINE)
 app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
